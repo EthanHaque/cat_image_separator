@@ -23,7 +23,7 @@ directory that contains the main.py file and run
 * `python main.py -h` to see a list of the available functionality. 
 <br>
 <br>
-<!-- end -->
+[//]: # (end)
 ### Flags
 * `-d` (or) `--directory`: performs predictions on the entire directory of images specified folder path
 * `-dr` (or) `--directory_recursive`: performs predictions on all the sub-directories of the specified folder path
@@ -33,7 +33,7 @@ directory that contains the main.py file and run
 * `-n` (or) `--negative`: the negative class name
 * `-w` (or) `--write`: writes the output of the predictions to a specified file
 * `-v` (or) `--verbose`: prints out the predictions to the command line
-<!-- end -->
+[//]: # (end)
 ### Examples
 * `python main.py -v -i path/to/file`
 * `python main.py -w path/to/output/file -d path/to/directory`
