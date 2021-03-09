@@ -1,17 +1,13 @@
 # cat_image_separator
 
-***
 Python Tensorflow model that can separate out images of my cat from all my pictures.
 ## Purpose
-***
 I have several hundred images of my cat and several thousand more images of things that are not my cat. 
 This project sorts those images out with near perfect accuracy (~98-99% accuracy)
 ## How it Works
-***
 I created and trained an optimized version of Inception ResNet V2 for classifying cats and 
 wrote created a command-line utility for the project.
 ## How to Download it
-***
 Download the latest release, and the tensorflow model available here: [Shared Drive Link](https://drive.google.com/drive/folders/169dPptMA6AdbJPRpZTgIagdIugSIXwMG?usp=sharing).
 <br>
 Wherever you downloaded the code to, place the model in directory called `inceptionResNetV2_optimized_h5` and place that directory inside a directory named
@@ -21,7 +17,6 @@ Wherever you downloaded the code to, place the model in directory called `incept
 Tensorflow 2.0 and numpy are the only dependencies you might have to install that don't come
 standard with a python distro (i.e. argparse, os, and shutil).
 ## How to Use it
-***
 If you are using Anaconda, activate your conda environment that contains tensorflow and numpy. Otherwise, navigate to the 
 directory that contains the main.py file and run 
 <br>
