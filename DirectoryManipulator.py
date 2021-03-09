@@ -38,14 +38,15 @@ class DirectoryManipulator:
 
 
 if __name__ == "__main__":
-    from Predictor import Predictor
-
-    class_names = ("cat", "not_cat")
-    d = DirectoryManipulator()
-    p = Predictor(r"models\inceptionResNetV2_optimized_h5\inceptionResNetV2_optimized.h5", class_names)
-    path = r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing"
-    dirs = d.recursively_get_sub_dirs(path, class_names)
-
-    predictions = p.process_directory(dirs[2])
-    predictions = list(predictions.values())[0]
-    d.sort_directory(dirs[2], predictions)
+    # from Predictor import Predictor
+    #
+    # class_names = ("cat", "not_cat")
+    # d = DirectoryManipulator()
+    # p = Predictor(r"models\inceptionResNetV2_optimized_h5\inceptionResNetV2_optimized.h5", class_names)
+    # path = r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing"
+    # dirs = d.recursively_get_sub_dirs(path, class_names)
+    #
+    # predictions = p.process_directory(dirs[2])
+    # predictions = list(predictions.values())[0]
+    # d.sort_directory(dirs[2], predictions)
+    pass

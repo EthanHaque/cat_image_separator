@@ -129,13 +129,14 @@ class Predictor:
 
 
 if __name__ == "__main__":
-    ptd = [r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing\1",
-           r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing\2",
-           r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing\3"]
-    ptm = r"models\inceptionResNetV2_optimized_h5\inceptionResNetV2_optimized.h5"
-    p = Predictor(ptm, ("cat", "not_cat"))
-    ptds = p.process_multiple_directories(ptd)
-    for key, val in ptds.items():
-        print(key, end=":\n")
-        for v in val:
-            print(v)
+    # ptd = [r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing\1",
+    #        r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing\2",
+    #        r"C:\Users\Ethan\Desktop\cat_image_separator\data\testing\3"]
+    # ptm = r"models\inceptionResNetV2_optimized_h5\inceptionResNetV2_optimized.h5"
+    # p = Predictor(ptm, ("cat", "not_cat"))
+    # ptds = p.process_multiple_directories(ptd)
+    # for key, val in ptds.items():
+    #     print(key, end=":\n")
+    #     for v in val:
+    #         print(v)
+    pass
