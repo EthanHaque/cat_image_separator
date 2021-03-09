@@ -20,25 +20,21 @@ standard with a python distro (i.e. argparse, os, and shutil).
 If you are using Anaconda, activate your conda environment that contains tensorflow and numpy. Otherwise, navigate to the 
 directory that contains the main.py file and run 
 <br>
-* `python main.py -h` to see a list of the available functionality. 
-<br>
-<br>
-[//]: # (end)
+- `python main.py -h` to see a list of the available functionality.
 ### Flags
-* `-d` (or) `--directory`: performs predictions on the entire directory of images specified folder path
-* `-dr` (or) `--directory_recursive`: performs predictions on all the sub-directories of the specified folder path
-* `-i` (or) `--image`: performs predictions on a single image with the specified path
-* `-r` (or) `--reorganize`: reorganizes the files into a directory with the positive class name and negative class name
-* `-p` (or) `--positive`: the positive class name
-* `-n` (or) `--negative`: the negative class name
-* `-w` (or) `--write`: writes the output of the predictions to a specified file
-* `-v` (or) `--verbose`: prints out the predictions to the command line
-[//]: # (end)
+- `-d` (or) `--directory`: performs predictions on the entire directory of images specified folder path
+- `-dr` (or) `--directory_recursive`: performs predictions on all the sub-directories of the specified folder path
+- `-i` (or) `--image`: performs predictions on a single image with the specified path
+- `-r` (or) `--reorganize`: reorganizes the files into a directory with the positive class name and negative class name
+- `-p` (or) `--positive`: the positive class name
+- `-n` (or) `--negative`: the negative class name
+- `-w` (or) `--write`: writes the output of the predictions to a specified file
+- `-v` (or) `--verbose`: prints out the predictions to the command line
 ### Examples
-* `python main.py -v -i path/to/file`
-* `python main.py -w path/to/output/file -d path/to/directory`
-* `python main.py -d path/to/directory -r`
-* `python main.py -dr path/to/root/directory -r -v -w path/to/output/file`
+- `python main.py -v -i path/to/file`
+- `python main.py -w path/to/output/file -d path/to/directory`
+- `python main.py -d path/to/directory -r`
+- `python main.py -dr path/to/root/directory -r -v -w path/to/output/file`
 
 
 
