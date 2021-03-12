@@ -6,7 +6,7 @@ I have several hundred images of my cat and several thousand more images of thin
 This project sorts those images out with near perfect accuracy (~98-99% accuracy)
 ## How it Works
 I created and trained an optimized version of Inception ResNet V2 for classifying cats and 
-wrote created a command-line utility for the project.
+wrote a command-line utility for the project.
 ## How to Download it
 Download the [latest release](https://github.com/EthanHaque/cat_image_separator/releases/tag/v1.0), and the tensorflow model available here: [Shared Drive Link](https://drive.google.com/drive/folders/169dPptMA6AdbJPRpZTgIagdIugSIXwMG?usp=sharing).
 <br>
@@ -15,9 +15,9 @@ Wherever you downloaded the code to, place the model in directory called `incept
 <br>
 <br>
 Tensorflow 2.0 and numpy are the only dependencies you might have to install that don't come
-standard with a python distro (i.e. argparse, os, and shutil).
+standard with a python distro (However, there are three more dependencies: argparse, os, and shutil).
 ## How to Use it
-If you are using Anaconda, activate your conda environment that contains tensorflow and numpy. Otherwise, navigate to the 
+If you are using Anaconda, activate your conda environment that contains tensorflow and numpy. Navigate to the 
 directory that contains the main.py file and run 
 <br>
 - `python main.py -h` to see a list of the available functionality.
