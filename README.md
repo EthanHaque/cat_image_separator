@@ -8,7 +8,7 @@ This project sorts those images out with near perfect accuracy (~98-99% accuracy
 I created and trained an optimized version of Inception ResNet V2 for classifying cats and 
 wrote created a command-line utility for the project.
 ## How to Download it
-Download the latest release, and the tensorflow model available here: [Shared Drive Link](https://drive.google.com/drive/folders/169dPptMA6AdbJPRpZTgIagdIugSIXwMG?usp=sharing).
+Download the [latest release](https://github.com/EthanHaque/cat_image_separator/releases/tag/v1.0), and the tensorflow model available here: [Shared Drive Link](https://drive.google.com/drive/folders/169dPptMA6AdbJPRpZTgIagdIugSIXwMG?usp=sharing).
 <br>
 Wherever you downloaded the code to, place the model in directory called `inceptionResNetV2_optimized_h5` and place that directory inside a directory named
 `models`. You should end up with a path that looks like: `models/inceptionResNetV2_optimized_h5/inceptionResNetV2_optimized.h5` insde the directory that contains the source code.
